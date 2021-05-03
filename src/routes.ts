@@ -4,6 +4,6 @@ const routes = Router();
 
 const faleMaisController = new FaleMaisController();
 
-routes.get('/faleMais', faleMaisController.show);
+routes.post('/faleMais', faleMaisController.show);
 
 export { routes };
